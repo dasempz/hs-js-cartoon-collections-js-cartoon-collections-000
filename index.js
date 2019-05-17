@@ -50,7 +50,7 @@ var cheese = ["cheddar", "gouda", "camembert"];
 //initialize; test; increment
 function findTheCheese (foods) {
    for(var i =0; i < foods.length; i++) {
-     if(foods[i] === soup.item) {
+     if(foods[i] === cheese.forEach) {
          return foods[i];
        } 
      }
