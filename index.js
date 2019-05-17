@@ -1,7 +1,6 @@
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"];
 planeteerCalls = ["earth", "wind", "fire", "water", "heart"];
-shortWords = ["wind", "fire"];
-assortedWords = ["earth", "wind", "heart", "fire"];
+
 
 //This function should accept an array of dwarf names, for instance: ["Doc", "Dopey", "Bashful", "Grumpy"] It should then return a string with the numbered dwarves. The string should look like this:            "1. Doc 2. Dopey 3. Bashful 4. Grumpy "
 
@@ -28,6 +27,9 @@ summonCaptainPlanet(planeteerCalls);
 //**********************************************
 
 //The longPlaneteerCalls method should accept an array of calls. The function should tell us if any of the calls are longer than four characters
+
+let words = ["wind", "fire"];
+let assortedWords = ["earth", "wind", "heart", "fire"];
 
 assortedwords.some(longPlaneteerCalls);
 function longPlaneteerCalls(items){
