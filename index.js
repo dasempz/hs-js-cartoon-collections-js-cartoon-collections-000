@@ -29,7 +29,7 @@ summonCaptainPlanet(planeteerCalls);
 
 //The longPlaneteerCalls method should accept an array of calls. The function should tell us if any of the calls are longer than four characters
 
-words.some(longPlaneteerCalls);
+assortedwords.some(longPlaneteerCalls);
 function longPlaneteerCalls(items){
  return items.length > 4;
 }
