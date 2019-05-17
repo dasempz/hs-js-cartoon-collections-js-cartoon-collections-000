@@ -54,8 +54,7 @@ function findTheCheese (foods) {
          return foods[i];
        } 
      }
-     if(foods !== 'cheddar' || foods !== 'gouda' || foods !== 'camembert'|| foods !== 'swiss') {
-       return 'no cheese!';
+     return 'no cheese!';
      } 
  }
  findTheCheese(soup);
